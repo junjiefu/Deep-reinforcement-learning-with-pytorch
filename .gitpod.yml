@@ -7,7 +7,8 @@ tasks:
     init: |
       pyenv install 3.6.2
       pyenv global 3.6.2
-      pip install tensorboardX gym torch==1.4.0 torchvision tensorflow==1.15.2
+      pip install --upgrade pip
+      pip install tensorboardX gym torch==1.4.0 torchvision tensorflow==1.15.2 numpy matplotlib
   
 
 
